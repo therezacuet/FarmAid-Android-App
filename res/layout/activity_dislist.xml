@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DisList" >
+
+    <HorizontalScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:background="#bbb"
+        android:padding="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="none"
+        android:layout_marginTop="80dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="221dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="নিচের ছবিগুলোর যেটির সঙ্গে আপনার রোগাক্রান্ত ফসলের রোগের লক্ষণগুলো মিলে যায় সেটি চিহ্নিত করুন।"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="প্রথম পাতায় যান" />
+
+</RelativeLayout>

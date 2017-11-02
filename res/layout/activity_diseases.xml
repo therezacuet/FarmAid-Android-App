@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="5"
+        android:layout_height="wrap_content" >
+        <TextView
+        android:id="@+id/tcrop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        
+        android:text="ফসল নির্বাচন করুন"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/tpart"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        
+        android:text="রোগাক্রান্ত অংশ নির্বাচন করুন"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+         android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical" >
+    
+         <Button
+        android:id="@+id/take_photo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+        android:text="ছবি তুলুন" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    android:orientation="vertical"
+    android:weightSum="10">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+     <TextView
+       android:id="@+id/fosol"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:gravity="center"
+       android:text="ফসলের ধরণ" 
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+     <Spinner
+        android:id="@+id/crop_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:entries="@array/crops_array"></Spinner> 
+   </LinearLayout>
+   
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+     <TextView
+       android:id="@+id/mati"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:gravity="center"
+       android:text="মাটির ধরণ"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+   <Spinner
+        android:id="@+id/soil_type"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:entries="@array/soil_array" />
+   </LinearLayout>
+   
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+   <TextView
+       android:id="@+id/jomi_type"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:gravity="center"
+       android:text="জমির ধরণ"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+   <Spinner
+        android:id="@+id/land_type"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:entries="@array/land_array" />
+   </LinearLayout>
+   
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+   <TextView
+       android:id="@+id/jomi_amm"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:gravity="center"
+       android:text="জমির পরিমান" 
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <EditText
+       android:id="@+id/land_ammount"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:layout_height="match_parent"
+       android:ems="10"
+       android:hint="শতাংশ" 
+       android:gravity="center"
+       android:inputType="phone" >
+
+
+       <requestFocus />
+   </EditText>
+  </LinearLayout>
+
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:text="ফলাফল দেখুন" />
+
+</LinearLayout>

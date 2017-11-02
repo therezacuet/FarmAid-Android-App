@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FarmAid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_market">Market Activity</string>
+    <string name="title_activity_complain">Complain Activity</string>
+    <string name="country_prompt">আপনার বিভাগ সিলেক্ট করুন</string>
+
+    <string-array name="country_arrays">
+        <item>আপনার বিভাগ সিলেক্ট করুন</item>
+        <item>ঢাকা</item>
+        <item>চট্টগ্রাম</item>
+        <item>সিলেট</item>
+        <item>বরিশাল</item>
+        <item>খুলনা</item>
+        <item>রংপুর</item>
+        <item>দিনাজপুর</item>
+        <item>ময়মনসিংহ</item>
+    </string-array>
+
+    <string name="crops_prompt">ফসল সিলেক্ট করুন</string>
+
+    <string-array name="crops_arrays">
+        <item>ফসল সিলেক্ট করুন</item>
+        <item>ধান</item>
+        <item>পাট</item>
+        <item>গম</item>
+        <item>সরিষা</item>
+        <item>ডাল</item>
+        <item>আলু</item>
+        <item>পেঁয়াজ</item>
+        <item>মরিচ</item>
+    </string-array>
+
+    <string name="title_activity_digital__market_">Digital Market Activity</string>
+    <string name="title_activity_diseases">Diseases Activity</string>
+    <string name="title_activity_fertilizer">Fertilizer Activity</string>
+    <string name="title_activity_camera">Camera Activity</string>
+    <string name="title_activity_take_photo">Take Photo</string>
+    <string name="title_activity_dis_details">DisDetails</string>
+    <string name="title_activity_dis_list">DisList</string>
+
+    <string-array name="farmer_type_array">
+        <item>নির্বাচন করুন</item>
+        <item>বর্গা চাষী</item>
+        <item>নিজস্ব জমি</item>
+        <item>বর্গা ও নিজস্ব জমি</item>
+    </string-array>
+    <string-array name="crops_array">
+        <item>ফসল নির্বাচন করুন</item>
+        <item>বোরো ধান</item>
+        <item>আউশ ধান</item>
+        <item>রোপা আমন ধান</item>
+        <item>গম</item>
+        <item>পাট</item>
+    </string-array>
+    <string-array name="soil_array">
+        <item>মাটির ধরণ নির্বাচন করুন</item>
+        <item>পলি মাটি</item>
+        <item>বেলে মাটি</item>
+        <item>বেলে দোআঁশ</item>
+        <item>এঁটেল মাটি</item>
+    </string-array>
+    <string-array name="land_array">
+        <item>জমির ধরণ নির্বাচন করুন</item>
+        <item>উঁচু জমি</item>
+        <item>মাঝারি উঁচু</item>
+        <item>নিচু জমি</item>
+        <item>মাঝারি নিচু</item>
+    </string-array>
+
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="crops_recomend1">এই ফসল উঁচু জমি, মাঝারি উঁচু জমি, মাঝারি নিচু জমি, নিচু জমি তে চাষ করার সুপারিশ করা হয়েছে।</string>
+    <string name="crops_recomend2">এই ফসল উঁচু জমি, মাঝারি উঁচু জমি তে চাষ করার সুপারিশ করা হয়েছে।</string>
+    <string name="urea">ইউরিয়া</string>
+    <string name="tsp">টিএসপি</string>
+    <string name="mop">এমওপি</string>
+    <string name="gipsum">জিপসাম</string>
+    <string name="compost">গোবর/কম্পোষ্ট</string>
+    <string name="rice_urea">১ম কিস্তি- চারা রোপনের ১০-১৫ দিন পর, ২য় কিস্তি- কুশি গজানোর সময়, ৩য় কিস্তি- কাইচ থোড় আসার ৫-৭ দিন পূর্বে ছিটিয়ে দিতে হবে।</string>
+    <string name="jute_urea">১ম কিস্তি জমি তৈরীর সময়, ২য় কিস্তি বীজ বপনের ৪০-৫০ দিন পর জমি স্যাঁতস্যাঁতে থাকা অবস্থায় দিতে হবে।</string>
+    <string name="gom_urea">১ম কিস্তি ইউরিয়া সার বীজ বপনের ঠিক আগে, ২য় ও ৩য় কিস্তি যথাক্রমে বীজ বপনের ২০-২৫ দিন এবং ৫০-৫৫ দিন পর দিতে হবে।</string>
+    <string name="others_application">জমি তৈরির সময় এক সাথে প্রয়োগ করতে হবে</string>
+    <string name="compost_amm">প্রয়োজন মত</string>
+    <string name="g_amm">প্রয়োজন নেই</string>
+    <string name="kg">কেজি</string>
+    <string name="gm">গ্রাম</string>
+    <string name="title_activity_launcher">Launcher Activity</string>
+    <string name="title_activity_faltu">Faltu Activity</string>
+    <string name="_">ধান</string>
+    <string name="title_activity_splash_screen">Splash Screen</string>
+    <string name="title_activity_modern_technology">ModernTechnology</string>
+    <string name="title_activity_kena">Kena Activity</string>
+    <string name="title_activity_kena_becha">KenaBechaActivity</string>
+
+</resources>

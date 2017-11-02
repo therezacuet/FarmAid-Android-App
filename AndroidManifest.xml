@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dovana.farmaid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.dovana.farmaid.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.MarketActivity"
+            android:label="@string/title_activity_market"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.ComplainActivity"
+            android:label="@string/title_activity_complain"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.Digital_Market_Activity"
+            android:label="@string/title_activity_digital__market_"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.DiseasesActivity"
+            android:label="@string/title_activity_diseases"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.FertilizerActivity"
+            android:label="@string/title_activity_fertilizer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.CameraActivity"
+            android:label="@string/title_activity_camera"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.TakePhoto"
+            android:label="@string/title_activity_take_photo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.DisDetails"
+            android:label="@string/title_activity_dis_details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.DisList"
+            android:label="@string/title_activity_dis_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.ResultActivity"
+            android:label="@string/title_activity_result"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.ModernTechnology"
+            android:label="@string/title_activity_modern_technology"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.LauncherActivity"
+            android:label="@string/title_activity_modern_technology"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.KenaActivity"
+            android:label="@string/title_activity_kena" >
+        </activity>
+        <activity
+            android:name="com.dovana.farmaid.KenaBechaActivity"
+            android:label="@string/title_activity_kena_becha" >
+        </activity>
+    </application>
+
+</manifest>
